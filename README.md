@@ -2,7 +2,7 @@
 
 If you're reading this, chances are you've stumbled upon my portfolio code on GitHub. I'm glad that you find my work useful, and I'm happy to share it with you and the wider community.
 
-However, I kindly request that if you use any part of my code or take inspiration from it for your own project, please mention the original source (https://github.com/0xtter/Portfolio) in your project and give credit where credit is due.
+However I must give credit to the original version of this portfolio by (https://github.com/Glaysonvisgueira). I appreciate the work that they've done and I hope to spread it to others. If you do end up using this format please give them credit.
 
 As a developer, I understand how important it is to respect other people's intellectual property and give proper attribution for their work. By mentioning the original project, you not only show appreciation for my efforts, but you also help others discover my work and potentially benefit from it as well.
 
@@ -19,7 +19,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## With docker
 
 ```shell
-docker run -d --name portfolio -p 3000:3000 0xtter/portfolio:1.0
+docker run -d --name portfolio -p 3000:3000 almankemla/portfolio:1.0
 ```
 
 ## Whitout Docker

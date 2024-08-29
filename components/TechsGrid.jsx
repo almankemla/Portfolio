@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import ScrollAnimation from "react-animate-on-scroll";
 
-//Contexto
+// Contexto
 
-//Ícones
+// Ícones
 import { Amazonaws } from "@styled-icons/simple-icons/Amazonaws";
 import { Visualstudiocode } from "@styled-icons/simple-icons/Visualstudiocode";
 import { Mongodb } from "@styled-icons/simple-icons/Mongodb";
@@ -25,10 +25,11 @@ import { Ios } from "@styled-icons/simple-icons/Ios";
 import { Figma } from "@styled-icons/boxicons-logos/Figma";
 import { Adobephotoshop } from "@styled-icons/simple-icons/Adobephotoshop";
 import { Docker } from "@styled-icons/boxicons-logos/Docker";
-import { Wordpress } from "@styled-icons/boxicons-logos/Wordpress"
-import { Kalilinux } from "@styled-icons/simple-icons/Kalilinux"
-import { Nextcloud } from "@styled-icons/simple-icons/Nextcloud"
-import { Nginx } from "@styled-icons/simple-icons/Nginx"
+import { Wordpress } from "@styled-icons/boxicons-logos/Wordpress";
+import { Kalilinux } from "@styled-icons/simple-icons/Kalilinux";
+import { Nextcloud } from "@styled-icons/simple-icons/Nextcloud";
+import { Nginx } from "@styled-icons/simple-icons/Nginx";
+import { Zap } from "@styled-icons/boxicons-solid/Zap";
 
 const TechGrid = styled.footer`
 	padding-top: 30px;
@@ -49,7 +50,6 @@ const Tech = styled.div`
 	width: 100%;
 	min-width: 100px;
 	height: 44px;
-	//background-color: ${(props) => props.theme.colors.backgroundSecondary};
 	padding: 15px;
 	border-radius: 4px;
 
@@ -84,93 +84,82 @@ export default function TechsGrid(props) {
 				<Tech>
 					<Docker />
 				</Tech>
-			</ScrollAnimation>	
+			</ScrollAnimation>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Wordpress />
 				</Tech>
-			</ScrollAnimation>	
+			</ScrollAnimation>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Kalilinux />
 				</Tech>
-			</ScrollAnimation>	
+			</ScrollAnimation>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Nextcloud />
 				</Tech>
-			</ScrollAnimation>	
+			</ScrollAnimation>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Nginx />
 				</Tech>
-			</ScrollAnimation>	
+			</ScrollAnimation>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Amazonaws />
 				</Tech>
-			</ScrollAnimation>	
-
+			</ScrollAnimation>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Visualstudiocode />
 				</Tech>
 			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Mongodb />
 				</Tech>
 			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Postgresql />
 				</Tech>
 			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Sqlite />
 				</Tech>
 			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Javascript />
 				</Tech>
 			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Java />
 				</Tech>
 			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Python />
 				</Tech>
 			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Nodejs />
 				</Tech>
 			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Html5 />
 				</Tech>
 			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Git />
 				</Tech>
 			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Oracle />
@@ -206,12 +195,17 @@ export default function TechsGrid(props) {
 					<Figma />
 				</Tech>
 			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Adobephotoshop />
 				</Tech>
 			</ScrollAnimation>
+			<ScrollAnimation animateIn="fadeIn" animateOnce>
+				<Tech>
+					<Zap />
+				</Tech>
+			</ScrollAnimation>
+			
 		</TechGrid>
 	);
 }

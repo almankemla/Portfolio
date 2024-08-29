@@ -1,83 +1,83 @@
 {
-	"id": "frfr",
+	"id": "enuk",
 	"navbarMenu": {
-		"labelHome": "MENU PRINCIPAL",
-		"labelServices": "MES DOMAINES",
-		"labelAboutMe": "WHOAMI",
-		"labelPortifolio": "PROJETS",
+		"labelHome": "MENU",
+		"labelServices": "SKILLSET",
+		"labelAboutMe": "ABOUT ME",
+		"labelPortifolio": "PROJECTS",
 		"labelExperience": "EXPERIENCES"
 	},
 	"landingPage": {
 		"apresentationText": "Hello World,",
-		"typeText": "Thomas Desrumeaux",
-		"resumeText": "Fasciné par l’informatique et par ses enjeux sécuritaires, je m’oriente dans les métiers de la cybersécurité. Créatif et persévérant, j’aime relever les défis en équipe pour répondre aux enjeux actuels en termes de sécurité informatique.",
-		"buttonText": "A propos de moi"
+		"typeText": "Alma Nkemla",
+		"resumeText": "For a couple of years now, my life has been dominated by cybersecurity and programming, especially the challenge of problem-solving and the creativity it demands. Recently, my curiosity has recently expanded into AI and cybersecurity.",
+		"buttonText": "More about me..."
 	},
 	"servicesOffer": {
-		"title": "Mes domaines",
+		"title": "Skill set",
 		"cards": {
 			"forensique": {
-				"title": "Forensique",
-				"contentText": "Solide connaissances des principes de base de la forensique informatique, y compris les méthodes d'acquisition de données, d'analyse des données et de présentation des preuves."
+				"title": "Programming",
+				"contentText": "Proficient in programming, with knowledge of multiple languages such as Python, C++, and Java, etc."
 			},
 			"devsecops": {
-				"title": "DevSecOps",
-				"contentText": "Forte compréhension du développement, de la sécurité informatique et de la conformité réglementaire. Compétent en CI/CD, sécurité réseau, tests d'intrusion."
+				"title": "Malware Analysis",
+				"contentText": "Using tools like IDA and Ghidra to reverse-engineer threats, identify vulnerabilities, and develop effective defense strategies."
 			},
 			"pentesting": {
-				"title": "Pentesting",
-				"contentText": "Test d'intrusion et vulnérabilités courantes. Reconnaissance, exploitation, post-exploitation et reporting. Indentification et correction des vulnérabilités pour assurer la sécurité des systèmes et des réseaux."
+				"title": "CTF",
+				"contentText": "Experience in using tools like Metasploit, Burp Suite, and Nmap to conduct in-depth vulnerability assessments, exploit security flaws, and deliver seccurity reports"
 			},
 			"developpement": {
-				"title": "Développement",
-				"contentText": "Expertise en Java, Python, C++, JavaScript, Bash, Docker et autres. Utilisation avancée de Github pour la gestion de versions et la collaboration sur des projets personnels et professionnels. "
+				"title": "Infrastructure",
+				"contentText": "Strong skills in managing infrastructure, including designing and optimizing systems and networks for reliable and secure performance"
 			}
 		}
 	},
 	"aboutMePage": {
-		"title": "WHOAMI",
-		"paragraph_one": "Elève en 5ème année à ISEN Lille, je suis actuellement en contrat de professionnalisation à Orange Cyberdefense en tant qu'ingénieur CSIRT.",
-		"paragraph_two": "Ingénieur en cybersécurité expérimenté, je suis passionné par la protection des données et la sécurité informatique. Avec de l'expérience dans l'industrie, je suis spécialisé dans la mise en place de systèmes de sécurité solides pour les entreprises de toutes tailles. Je suis également compétent en matière de tests de pénétration, de conformité réglementaire et de gestion des incidents de sécurité. Mon objectif est de fournir des solutions de sécurité avancées pour aider à protéger les actifs numériques.",
-		"paragraph_three": "En tant que self-hosteur, je crois fermement que chacun devrait avoir le contrôle total sur ses données et ses services en ligne. C'est pourquoi je me suis spécialisé dans l'hébergement de mes propres sites web, applications et services, pour éviter la dépendance aux grands fournisseurs de services en ligne. J'aime partager mes connaissances et expériences avec les autres pour les aider à comprendre les avantages du self-hébergement et à se lancer dans l'aventure. Mon objectif est de faciliter l'accès à l'autonomie en matière de technologies numériques pour tous.",
+		"title": "More About Me",
+		"paragraph_one": "My name is Alma Rika Nkemla Fudjo, and I am currently pursuing a Master's in Information and Cyber Security (for working professionals) at UC Berkeley. I also hold a Bachelor’s degree in Computer Engineering from Georgia Tech.",
+		"paragraph_two": "With practical experience in various cybersecurity roles, I've integrated advanced security features and multi-factor authentication into mobile applications, designed resilient cryptographic hardware, and crafted secure frameworks. My technical expertise includes programming in multiple languages including Java, Python, and C, and using a wide range of security related tools like IDA Pro and Wireshark.",
+		"paragraph_three": "I approach cybersecurity with a curiosity and a passion for discovery. My drive in every role comes from an intrinsic motivation to understand complex systems, uncover hidden vulnerabilities, and continuously evolve my skills. This passion fuels my commitment to not only solving security challenges but also innovating and advancing the field. As I look ahead, my next goal is to secure a role—whether full-time or an internship—in software development (backend, infrastructure, network, or machine learning) or cybersecurity.",
 		"github_card": {
 			"followers": "followers",
 			"following": "following",
 			"repos": "repos"
 		},
-		"alt_dev_img": "Thomas Desrumeaux"
+		"alt_dev_img": "Alma Nkemla"
 	},
 	"portifolioPage": {
-		"title": "PROJETS",
-		"labelFilter": "TOUS",
-		"createdLabel": "Créé le"
+		"title": "PROJECTS",
+		"labelFilter": "ALL",
+		"createdLabel": "Date"
 	},
 	"experiencePage": {
 		"title": "EXPERIENCES",
 		"timeline": {
 			"labelPosition": "Position",
 			"labelTitle": "Intitulé",
-			"labelCompany": "Entreprise",
-			"labelCategory": "Catégorie",
+			"labelCompany": "Company",
+			"labelCategory": "Category",
 			"labelInstitution": "Institution",
-			"labelProfessionalCourse": "Cours professionnels",
-			"labelBachelorDegree": "Baccalauréat",
-			"labelExtensionCourse": "Cours d'extension"
+			"labelProfessionalCourse": "Courses",
+			"labelBachelorDegree": "Degree",
+			"labelExtensionCourse": "Additional Courses"
 		}
 	},
 	"footer": {
 		"labelNavigation": {
 			"title": "Navigation",
-			"labelHome": "Menu principal",
-			"labelServices": "Mes domaines",
-			"labelAboutMe": "Whoami",
-			"labelPortifolio": "Projets",
-			"labelExperience": "Expériences"
+			"labelHome": "Menu",
+			"labelServices": "Skillsets",
+			"labelAboutMe": "About Me",
+			"labelPortifolio": "Projects",
+			"labelExperience": "Experiences"
 		},
 		"labelHost": {
-			"title": "HEBERGEMENT"
+			"title": "HOUSING"
 		},
 		"labelSourceCode": {
-			"title": "CODE SOURCE"
+			"title": "SOURCE CODE"
 		},
 		"labelTechs": {
 			"title": "TECHNOLOGIES"

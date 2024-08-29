@@ -27,11 +27,10 @@ export default function Experiencia() {
 	const theme = useTheme();
 	return (
 		<SectionExperiencia id="section-experiencia">
-			<ContainerTitleSection>
-				<TitleSection>{language.experiencePage.title}</TitleSection>
-			</ContainerTitleSection>
-			<h2 style={{ color: `${theme.colors.branding}` }}>Coming Soon...</h2>
-			{/* <TimelineExperienciaFormacao /> */}
+			
+            <TitleSection>{language.experiencePage.title}</TitleSection>
+			
+			<TimelineExperienciaFormacao />
 		</SectionExperiencia >
 	);
 }
